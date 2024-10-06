@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório</a> público do Guanabara no Github.</p> <!--O parâmetro target="_blank" faz com que o link abra em uma nova aba do navegador.-->
+
+    <p>Você também pode acessar o <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="external">canal</a> gratuito no Youtube.</p>
+
+    <h1>Usando links internos</h1>
+    <p>Está é a primeira página do site. Se você quiser, pode acessar a minha <a href="pag002.html" target="_self" rel="next">segunda página.</a></p>
+
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias.</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/lom-manual.pdf" download="lom-manual.pdf">Baixar o livro em PDF</a></li> <!--O parâmetro download permite o download do arquivo cujo o nome for inserido.-->
+        <li><a href="livro/lom-manual.rar" download="lom-manual.rar" type="aplication/zip">Livro compactado em ZIP</a></li>
+        <!--Dependendo do navegador, apenas o parâmetro download ou o type, sozinhos, é suficiente para fazer download. Não sendo necessário o uso de ambos.-->
+    </ul>
+</body>
+</html>

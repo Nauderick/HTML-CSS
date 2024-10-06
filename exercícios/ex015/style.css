@@ -1,0 +1,20 @@
+@charset "UFT-8"; /*Regra para compatibilidade com acentuação*/ 
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    background-color: darkturquoise;
+    color: darkcyan;
+}
+
+h2{
+    color: darkgoldenrod;
+}
+
+p{
+    text-align: justify;
+}

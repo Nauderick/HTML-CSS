@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+
+    Só é recomendado utilizar um único id por documento html.
+    Se pode utilizar múltiplas classes em um documento html.
+    É possível utilizar mais uma classe na mesma tag (separando-as por espaço).
+    É possível mesclar id e classe na mesma tag (id sobrepõe as configurações da classe).
+*/
+
+body {
+    background-color: #c5ebe2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { /*h1 genérico*/
+    color: #1a9c7c;
+}
+
+h1#principal /*h1 personalizado pelo id principal*/ {
+    text-align: center;
+    background-color: #34947C;
+    color: white;
+}
+
+h2 {
+    color: #19473c;
+}
+
+.basico {
+    color: #20be50
+}
+
+.intermediario {
+    color: #a7b122
+}
+
+.avancado {
+    color: #d82519
+}
+
+.destaque {
+    background-color: rgba(255, 255, 0, 0.849);
+}
