@@ -67,11 +67,29 @@ section.normal {
 section.imagem {
     background-color: rgb(66, 65, 65);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.5);
 }
 
 section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.329);
+    text-shadow: 3px 2px 0px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a:hover {
